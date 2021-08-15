@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AZTECS</string>
+    <string name="welcome">WELCOME</string>
+    <string name="textwviwep01">BEST SELLING PLANT IN SRI LANKA</string>
+    <string name="price2">PRICE</string>
+    <string name="itemnumber">Item Number</string>
+    <string name="Que_01">Quentity</string>
+    <string name="cre_02">Create</string>
+    <string name="update02">UPDATE</string>
+    <string name="deli_02">DELETE</string>
+    <string name="price02">PRICE</string>
+    <string name="prd02">00.00</string>
+    <string name="mybill03">MY BILL</string>
+    <string name="total03">Total Amount</string>
+    <string name="rs03">RS</string>
+    <string name="topre03">00.00</string>
+    <string name="tank03">Thank YOU !</string>
+    <string name="feedname04">Name</string>
+    <string name="feedsen04">please, give  your feedback</string>
+    <string name="addfeed04">Add Feedback</string>
+    <string name="updatefeed04">Update Feedback</string>
+    <string name="deletefeed04">Delete Feedback</string>
+    <string name="listfeed04">List Feedback</string>
+    <string name="list06">LIST</string>
+
+
+</resources>
