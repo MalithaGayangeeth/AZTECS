@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Aztecs</string>
+    <string name="enterusername">Enter User Name</string>
+    <string name="enterpassword">Enter Your Password</string>
+    <string name="enteryourmail">Enter Your Email</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="email">Email</string>
+    <string name="password2">Password</string>
+    <string name="copassword">Confirm Password</string>
+    <string name="addemail">Email</string>
+    <string name="register">Register</string>
+    <string name="firstname2">First Name</string>
+    <string name="lastname2">Last Name</string>
+    <string name="email2">Email</string>
+    <string name="password3">Password</string>
+    <string name="butoonok1">OK</string>
+    <string name="buttonlogin">LOGIN</string>
+    <string name="buttonregister">REGISTER</string>
+    <string name="buttonadmin">ADMIN</string>
+    <string name="buttonedit" />
+    <string name="buttonedit1">EDIT</string>
+    <string name="buttondelete">DELETE</string>
+</resources>
