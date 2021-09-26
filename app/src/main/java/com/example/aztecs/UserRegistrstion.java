@@ -6,23 +6,62 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 
 public class UserRegistrstion extends AppCompatActivity {
-Button button9;
+
+    private Button button5;
+
+
+    EditText firstname, lastname, Email, password, repassword;
+    Button register;
+    UserModel user;
+    DBHelper MyDB;
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_registrstion);
-        button9 = (Button) findViewById(R.id.button9);
-        button9.setOnClickListener(new View.OnClickListener() {
+        button5 = (Button) findViewById(R.id.button5);
+        button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openUserProfile();
+                openUserProfileViwer();
             }
-            public void openUserProfile(){
-                Intent intent= new Intent(UserRegistrstion.this,UserProfile.class);
-                startActivity(intent);}
+            public void openUserProfileViwer(){
+                Intent intent= new Intent(UserRegistrstion.this,UserProfileViwer.class);
+                startActivity(intent);} });
+        MyDB=new DBHelper(this);
+        user=new UserModel();
 
+        firstname= (EditText) findViewById(R.id.editTextTextPersonName2);
+        lastname= (EditText) findViewById(R.id.editTextTextPersonName3);
+        Email= (EditText) findViewById(R.id.editTextTextEmailAddress);
+        password= (EditText) findViewById(R.id.editTextTextPassword2);
+        repassword= (EditText) findViewById(R.id.editTextTextPassword3);
+
+        register = (Button) findViewById(R.id.button9);
+
+        register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                user.setFirstname(firstname.getText().toString());
+                user.setLastname(lastname.getText().toString());
+                user.setEmail(Email.getText().toString());
+                user.setPassword(password.getText().toString());
+
+
+                boolean result = MyDB.userRegister(user);
+                if (result) {
+                    Toast.makeText(UserRegistrstion.this, "User Reghistration Succful", Toast.LENGTH_SHORT).show();
+                }else{
+                    Toast.makeText(UserRegistrstion.this, "User Reghistration Failed", Toast.LENGTH_SHORT).show();
+                }
+            }
         });
+
     }
 }

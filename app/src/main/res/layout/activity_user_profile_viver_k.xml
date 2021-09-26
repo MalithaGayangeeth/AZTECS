@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UserRegistrstion">
+    tools:context=".UserProfileViverK">
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="454dp"
-        android:layout_height="879dp"
+        android:id="@+id/imageView5"
+        android:layout_width="438dp"
+        android:layout_height="880dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -19,38 +19,39 @@
         app:srcCompat="@drawable/background1" />
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="123dp"
-        android:layout_height="134dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
-        app:layout_constraintEnd_toEndOf="@+id/imageView2"
-        app:layout_constraintHorizontal_bias="0.087"
+        android:id="@+id/imageView6"
+        android:layout_width="130dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="96dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.103"
         app:srcCompat="@drawable/logo1" />
 
     <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="156dp"
-        android:layout_height="126dp"
-        android:layout_marginTop="224dp"
+        android:id="@+id/imageView7"
+        android:layout_width="132dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="264dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/register" />
+        app:srcCompat="@drawable/profile" />
+
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="196dp"
+        android:layout_marginTop="204dp"
         android:fontFamily="@font/candal"
-        android:text="USER REGISTRSTION"
+        android:text="USER PROFILE"
         android:textColor="#070707"
-        android:textSize="35sp"
+        android:textSize="29sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -58,13 +59,15 @@
         android:id="@+id/editTextTextPersonName2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="352dp"
+        android:layout_marginTop="400dp"
         android:ems="10"
-        android:hint="@string/firstname"
+        android:hint="@string/editprofile2"
         android:inputType="textPersonName"
+        android:text="Kamal"
+        android:textAllCaps="true"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -72,10 +75,11 @@
         android:id="@+id/editTextTextPersonName3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
-        android:hint="@string/lastname"
+        android:hint="@string/lastnamesaman2"
         android:inputType="textPersonName"
+        android:text="Perera"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -83,72 +87,60 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:ems="10"
-        android:hint="@string/password2"
-        android:inputType="textPassword"
-        android:textColor="#070707"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
-
-    <EditText
-        android:id="@+id/editTextTextPassword3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:ems="10"
-        android:hint="@string/copassword"
-        android:inputType="textPassword"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
-
-    <EditText
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="512dp"
         android:ems="10"
-        android:hint="@string/addemail"
+        android:hint="@string/emailsaman2"
         android:inputType="textEmailAddress"
+        android:text="saman@gmail.com"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UnknownIdInLayout" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/button11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="648dp"
-        android:text="REGISTER"
+        android:layout_marginTop="568dp"
+        android:hint="@string/buttonedit1"
+        android:text="EDIT"
         android:textColor="#070707"
-        app:backgroundTint="#5EAF5E"
+        app:backgroundTint="#74BD74"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.291"
+        app:layout_constraintHorizontal_bias="0.272"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="648dp"
-        android:text="Next"
-        android:textColor="#0C0C0C"
-        app:backgroundTint="#55A558"
-        app:iconTint="#0E0E0E"
+        android:layout_marginTop="568dp"
+        android:hint="@string/buttondelete"
+        android:text="DELETE"
+        android:textColor="#090909"
+        app:backgroundTint="#6CB673"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.719"
+        app:layout_constraintHorizontal_bias="0.723"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="628dp"
+        android:hint="@string/butoonok1"
+        android:text="OK"
+        android:textColor="#090909"
+        app:backgroundTint="#64AC70"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView5" />
 </androidx.constraintlayout.widget.ConstraintLayout>

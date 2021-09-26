@@ -21,4 +21,8 @@
     <string name="buttonedit" />
     <string name="buttonedit1">EDIT</string>
     <string name="buttondelete">DELETE</string>
+    <string name="Saman" />
+    <string name="editprofile2">Saman</string>
+    <string name="lastnamesaman2">Perera</string>
+    <string name="emailsaman2">saman@gmail.com</string>
 </resources>
