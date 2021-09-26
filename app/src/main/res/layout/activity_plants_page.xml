@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="421dp"
+    android:layout_height="851dp"
+    tools:context=".PlantsPageActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="433dp"
+        android:layout_height="693dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/background07" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="151dp"
+        android:layout_height="140dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/lbl03"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/additem" />
+
+    <TextView
+        android:id="@+id/lbl02"
+        android:layout_width="229dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/aclonica"
+        android:hint="@string/lbl02"
+        android:text="PLANT STORE"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.31" />
+
+    <TextView
+        android:id="@+id/lbl03"
+        android:layout_width="130dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/chonburi"
+        android:text="Item ID"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/lbl04"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/txt04"
+        android:layout_width="225dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="@string/txt04"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/lbl03"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl04"
+        android:layout_width="130dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/chonburi"
+        android:hint="@string/lbl04"
+        android:text="Item Name"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/lbl05"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_marginBaseline="15dp" />
+
+    <EditText
+        android:id="@+id/txt05"
+        android:layout_width="225dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="@string/txt05"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/lbl04"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl05"
+        android:layout_width="130dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/chonburi"
+        android:hint="@string/lbl05"
+        android:text="Quantity"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/lbl06"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/txt06"
+        android:layout_width="225dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="@string/txt06"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/lbl05"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl06"
+        android:layout_width="130dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/chonburi"
+        android:hint="@string/lbl06"
+        android:text="Price"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button04"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/txt07"
+        android:layout_width="225dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="@string/txt07"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/lbl06"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button04"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/lightgreen"
+        android:fontFamily="sans-serif-medium"
+        android:hint="@string/button04"
+        android:text="Add Items"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button06"
+        app:layout_constraintEnd_toStartOf="@+id/button05"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button05"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/lightash"
+        android:fontFamily="sans-serif-medium"
+        android:hint="@string/button05"
+        android:text="View All"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/button07"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button06"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="228dp"
+        android:background="@color/blue"
+        android:fontFamily="sans-serif-medium"
+        android:hint="@string/button06"
+        android:text="Update"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button07"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="displayToast"/>
+
+    <Button
+        android:id="@+id/button07"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
+        android:layout_marginBottom="228dp"
+        android:background="@color/red"
+        android:fontFamily="sans-serif-medium"
+        android:text="Delete"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="displayToast"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/backg3"
+    >
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/anton"
+        android:text="Fertilizer Store"
+        android:textColor="@color/black"
+        android:textSize="36dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageViewNew"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/additem" />
+
+
+    <EditText
+        android:id="@+id/edittext_name1"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginBottom="100dp"
+        android:hint="Enter Item Name"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edittext_quantity1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Enter Quantity"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edittext_price1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Enter Price"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/button_add1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#388E3C"
+        android:text="Add Item"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/button_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#0288D1"
+        android:text="View Items"
+        android:textStyle="bold" />
+
+</LinearLayout>

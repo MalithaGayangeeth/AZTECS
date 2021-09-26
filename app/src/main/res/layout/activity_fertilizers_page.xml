@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="421dp"
+    android:layout_height="740dp"
+    app:flow_firstHorizontalBias="0.56"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_goneMarginTop="0dp"
+    tools:context=".FertilizersPageActivity">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="433dp"
+        android:layout_height="693dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background07" />
+
+    <TextView
+        android:id="@+id/lbl11"
+        android:layout_width="130dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/chonburi"
+        android:hint="@string/lbl11"
+        android:text="Price"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button08"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl09"
+        android:layout_width="130dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/chonburi"
+        android:hint="@string/lbl09"
+        android:text="Item Name"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/lbl10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_marginBaseline="15dp" />
+
+    <TextView
+        android:id="@+id/lbl10"
+        android:layout_width="130dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/chonburi"
+        android:hint="@string/lbl10"
+        android:text="Quantity"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/lbl11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl08"
+        android:layout_width="130dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/chonburi"
+        android:hint="@string/lbl08"
+        android:text="Item ID"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/lbl09"
+        app:layout_constraintEnd_toStartOf="@+id/txt08"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="151dp"
+        android:layout_height="140dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/lbl08"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/additem" />
+
+    <TextView
+        android:id="@+id/lbl07"
+        android:layout_width="310dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/aclonica"
+        android:hint="@string/lbl07"
+        android:text="FERTILIZER STORE"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.63"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/txt08"
+        android:layout_width="225dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:ems="10"
+        android:hint="@string/txt08"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/lbl08"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/txt09"
+        android:layout_width="225dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:ems="10"
+        android:hint="@string/txt09"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/lbl09"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/txt10"
+        android:layout_width="225dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:ems="10"
+        android:hint="@string/txt10"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/lbl10"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/txt11"
+        android:layout_width="225dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:ems="10"
+        android:hint="@string/txt11"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/lbl11"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button08"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="15dp"
+        android:background="#78DF89"
+        android:hint="@string/button08"
+        android:text="Add Items"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button10"
+        app:layout_constraintEnd_toStartOf="@+id/button09"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="displayToast"/>
+
+    <Button
+        android:id="@+id/button09"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        android:layout_marginBottom="15dp"
+        android:background="#AFA6A6"
+        android:hint="@string/button09"
+        android:text="View All"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button11"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="168dp"
+        android:background="#7687DF"
+        android:hint="@string/button10"
+        android:text="Update"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button11"
+        app:layout_constraintHorizontal_bias="0.322"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        android:layout_marginBottom="168dp"
+        android:background="#AE2F2F"
+        android:hint="@string/button11"
+        android:text="Delete"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="displayToast"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

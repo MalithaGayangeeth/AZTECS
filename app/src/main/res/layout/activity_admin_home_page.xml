@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminHomePageActivity">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="441dp"
+        android:layout_height="888dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background08" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="436dp"
+        android:layout_height="728dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/background07" />
+
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="189dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="60dp"
+        android:background="@color/brown"
+        android:fontFamily="@font/candal"
+        android:hint="@string/button02"
+        android:text="PLANT STORE"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button03"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button03"
+        android:layout_width="189dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="224dp"
+        android:background="@color/brown"
+        android:fontFamily="@font/candal"
+        android:hint="@string/button03"
+        android:text="FERTILIZER STORE"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txt03"
+        android:layout_width="316dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="84dp"
+        android:fontFamily="@font/aclonica"
+        android:hint="@string/txt03"
+        android:text="ADMIN HOME PAGE"
+        android:textColor="#070707"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/button02"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825" />
+</androidx.constraintlayout.widget.ConstraintLayout>

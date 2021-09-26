@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:layout_marginStart="0dp"
+    android:layout_marginLeft="0dp"
+    android:layout_marginTop="0dp"
+    android:layout_marginEnd="0dp"
+    android:layout_marginRight="0dp"
+    android:layout_marginBottom="100dp"
+    app:layout_marginBaseline="0dp"
+    tools:context=".ViewPlantsPageActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="421dp"
+        android:layout_height="851dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/background04" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="171dp"
+        android:layout_height="152dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/plant02" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="171dp"
+        android:layout_height="152dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/plant03" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="137dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="172dp"
+        android:background="#2E9A2A"
+        android:text="ORDER"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="171dp"
+        android:layout_height="152dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/plant01" />
+
+    <TextView
+        android:id="@+id/lbl12"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Item ID: P001"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/lbl13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl13"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Item Name: Bedroom Plant"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/lbl14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl14"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Quantity: 01"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/lbl15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl15"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Price: Rs.500"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/lbl16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl16"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Item ID: P002"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/lbl17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl17"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Item Name: Indoor Plants"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/lbl18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl18"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Quantity: 01"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/lbl19"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl19"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Price: 2500"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/lbl20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl20"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Item ID: P003"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/lbl21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl21"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Item Name: Indoor Plants"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/lbl22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl22"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Quantity: 01"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/lbl23"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl23"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Price: 3000"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@+id/button13"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="28dp"
+        android:background="@color/brown"
+        android:hint="@string/Button13"
+        android:text="+"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/button14"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:background="@color/brown"
+        android:hint="@string/button12"
+        android:text="-"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.96" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="28dp"
+        android:background="@color/brown"
+        android:hint="@string/button15"
+        android:text="+"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/button16"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button15"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/brown"
+        android:hint="@string/button14"
+        android:text="-"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumberDecimal2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal3"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@+id/button17"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/brown"
+        android:hint="@string/button17"
+        android:text="+"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/brown"
+        android:hint="@string/button16"
+        android:text="-"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumberDecimal3"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
