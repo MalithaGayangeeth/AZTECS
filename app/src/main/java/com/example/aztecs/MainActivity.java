@@ -21,11 +21,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                openMainActivity04();
+                openMainActivity7();
             }
 
-            public void openMainActivity04() {
-                Intent intentLoadNewActivity = new Intent(MainActivity.this, MainActivity04.class);
+            public void openMainActivity7() {
+                Intent intentLoadNewActivity = new Intent(MainActivity.this, MainActivity7.class);
                 startActivity(intentLoadNewActivity);
             }
         });

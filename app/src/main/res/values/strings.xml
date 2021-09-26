@@ -22,6 +22,11 @@
     <string name="deletefeed04">Delete Feedback</string>
     <string name="listfeed04">List Feedback</string>
     <string name="list06">LIST</string>
+    <string name="textid">ID</string>
+    <string name="textitemno" />
+    <string name="textquntity" />
+    <string name="price01" />
+    <string name="name" />
 
 
 </resources>
