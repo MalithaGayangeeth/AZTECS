@@ -17,8 +17,8 @@ public class LoginActivity extends AppCompatActivity {
     private EditText txt02;
 
 
-    private final String Username = "a";
-    private final String Password = "1";
+    private final String Username = "admin01@gmail.com";
+    private final String Password = "12345";
 
     boolean isValid = false;
 

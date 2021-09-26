@@ -22,6 +22,7 @@ public class DatabaseHelperClass extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "shop_database";
     //Database Table name
     private static final String TABLE_NAME = "PLANT";
+
     
     //Table columns
     public static final String ID = "id";
@@ -71,7 +72,7 @@ public class DatabaseHelperClass extends SQLiteOpenHelper {
         sqLiteDatabase.close();
     }
 
-    //get data from database
+    //get data
     public List<PlantModelClass> getPlantList(){
         String sql = "select * from " + TABLE_NAME;
         sqLiteDatabase = this.getReadableDatabase();
@@ -96,7 +97,7 @@ public class DatabaseHelperClass extends SQLiteOpenHelper {
         return storePlant;
     }
 
-    //Update data from database
+    //Update data
     public int updatePlant(PlantModelClass plantModelClass){
         ContentValues contentValues = new ContentValues();
 
@@ -109,7 +110,7 @@ public class DatabaseHelperClass extends SQLiteOpenHelper {
     }
 
 
-    //Delete data from database
+    //Delete data
     public int deletePlant(int id){
         sqLiteDatabase = this.getWritableDatabase();
         int i;
