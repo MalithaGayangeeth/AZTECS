@@ -18,6 +18,7 @@ public class UserRegistrstion extends AppCompatActivity {
     Button register;
     UserModel user;
     DBHelper MyDB;
+    boolean isAllFieldsChecked = false;
 
 
 
@@ -63,5 +64,36 @@ public class UserRegistrstion extends AppCompatActivity {
             }
         });
 
+    }
+
+    private boolean CheckAllFields() {
+        if  ( firstname .length() == 0) {
+            firstname  .setError("This field is required");
+            return false;
+        }
+
+        if (lastname.length() == 0) {
+            lastname.setError("Must contatin 10 digits");
+            return false;
+        }
+
+        if (Email.length() == 0) {
+            Email.setError("Must contatin 10 digits");
+            return false;
+        }
+
+        if (password.length() == 0) {
+            password.setError("Must contatin 10 digits");
+            return false;
+        }
+
+        if (repassword.length() == 0) {
+            repassword.setError("Must contatin 10 digits");
+            return false;
+        }
+
+
+        // after all validation return true.
+        return true;
     }
 }
