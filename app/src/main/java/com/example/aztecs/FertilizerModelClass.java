@@ -4,7 +4,6 @@ import android.graphics.Bitmap;
 
 public class FertilizerModelClass {
 
-
     Integer id;
     Bitmap image;
     String name;

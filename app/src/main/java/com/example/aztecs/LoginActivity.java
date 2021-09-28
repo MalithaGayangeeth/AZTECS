@@ -1,5 +1,6 @@
 package com.example.aztecs;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -17,8 +18,8 @@ public class LoginActivity extends AppCompatActivity {
     private EditText txt02;
 
 
-    private final String Username = "admin01@gmail.com";
-    private final String Password = "12345";
+    private final String Username = "a";
+    private final String Password = "1";
 
     boolean isValid = false;
 
@@ -70,6 +71,7 @@ public class LoginActivity extends AppCompatActivity {
 
         return false;
     }
+
 
 }
 //

@@ -10,6 +10,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Aztecs">
 
+        <activity android:name=".ViewFertilizerCustomerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ViewPlantCustomerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ViewFertilizerActivity"
+            android:parentActivityName=".FertilizerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FertilizerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".MainActivity"
             android:parentActivityName=".AdminHomePageActivity">
@@ -19,9 +49,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ViewPlantActivity"
+        <activity
+            android:name=".ViewPlantActivity"
             android:parentActivityName=".MainActivity">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

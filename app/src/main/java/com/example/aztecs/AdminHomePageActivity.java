@@ -29,7 +29,7 @@ public class AdminHomePageActivity extends AppCompatActivity {
         button03.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openFertilizersPageActivity();
+                openFertilizerActivity();
             }
         });
     }
@@ -39,8 +39,8 @@ public class AdminHomePageActivity extends AppCompatActivity {
         Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);
     }
-    public void openFertilizersPageActivity(){
-        Intent intent = new Intent(this,FertilizersPageActivity.class);
+    public void openFertilizerActivity(){
+        Intent intent = new Intent(this,FertilizerActivity.class);
         startActivity(intent);
     }
 
